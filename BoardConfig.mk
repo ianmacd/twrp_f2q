@@ -10,6 +10,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+PLATFORM_VERSION := 11
 
 DEVICE_PATH := device/samsung/f2q
 
@@ -59,7 +60,7 @@ TARGET_OTA_ASSERT_DEVICE := f2q
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 TARGET_COPY_OUT_VENDOR := vendor
-PLATFORM_SECURITY_PATCH := 2020-10-01
+PLATFORM_SECURITY_PATCH := 2021-01-01
 
 # Portrait orientation:
 #
